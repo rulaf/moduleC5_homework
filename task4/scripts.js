@@ -22,7 +22,7 @@ const useRequest = (urlAttrib) => {
 function clearDisplayResult() {
   const divResultNode = document.querySelector(".result");
   divResultNode.innerHTML = "";
-  divResultNode.textContent = "Ответ от сервера...";
+  divResultNode.textContent = "";
 }
 
 btn.addEventListener("click", async () => {
