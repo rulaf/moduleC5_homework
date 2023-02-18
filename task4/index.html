@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Запросы с HTTP </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <h3>Пример работы с запросом HTTP</h3>
+    <hr>
+    <script async src="scripts.js"></script>
+    <section>
+      <label for="width">Ширина фото (в диапазоне от 100 до 300):</label>
+      <input type="text" name="name" id="width" required placeholder="Ширина фото" minlength="1" maxlength="3" size="9">
+    </section>
+    <br />
+    <section>
+      <label for="height">Высота фото(в диапазоне от 100 до 300):</label>
+      <input type="text" name="name" id="height" required placeholder="Высота фото" minlength="1" maxlength="3" size="9">
+    </section><br />
+    <button class="btn fetch-request">Отправить</button>
+    <br /><br />
+    <div class="result"></div>
+    <br />
+  </main>
+</body>
+
+</html>
